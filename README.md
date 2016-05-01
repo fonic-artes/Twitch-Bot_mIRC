@@ -4,7 +4,7 @@ A Twitch Bot developed using mSL in mIRC. Features are currently being worked on
 # Required Items
 * mIRC: Preferrably v7.43 or higher
 * Windows XP+: This requires SReject's JSON Parser. [SReject's Github](https://github.com/SReject/mTwitch)
-* [JSONformIRC.mrc](https://raw.githubusercontent.com/SReject/mTwitch/master/resources/JSONForMirc.mrc) Many parts of my aliases take advantage of this parser made by SReject to connect to Twitch's Web API.
+* [JSONformIRC.mrc](https://github.com/SReject/mTwitch/blob/master/resources/JSONForMirc.mrc) Many parts of my aliases take advantage of this parser made by SReject to connect to Twitch's Web API.
 
 # Installing
 1. Download the scripts you like.
