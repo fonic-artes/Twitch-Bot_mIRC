@@ -29,8 +29,6 @@ alias streamTitle {
 }
 
 alias streamGame {
-  if (!$1) { return }
-  if ($me !ison $1) { return }
   var %j = followUser
   JSONOpen -ud %j https://api.twitch.tv/kraken/channels/ $+ $1 $+ ?= $+ $ticks
   var %streamGame = $json(%j,game)
